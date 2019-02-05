@@ -1,7 +1,7 @@
 <template>
   <div class="home">
     <panel1 class="panel"/>
-    <!-- <div class="panel" :style="{backgroundColor:'#f0f0f0'}"></div> -->
+    <!-- <div class="panel1" :style="{backgroundColor:'#f0f0f0'}"></div> -->
   </div>
 </template>
 
