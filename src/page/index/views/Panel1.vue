@@ -1,5 +1,6 @@
 <template>
-  <div class="pannel1">
+  <div class="panel1">
+    <!-- <div class="bg"></div> -->
     <div class="bg-phone"></div>
     <div class="banner">
       <img draggable="false" src="@/assets/20180520160438.jpeg">
@@ -121,7 +122,7 @@ export default {
     }
     .line {
       position: relative;
-      height: calc(60vh - 150px);
+      height: calc(60vh - 151px);
       border-right: 2px solid #000000;
       right: 18px;
     }
@@ -195,6 +196,21 @@ export default {
         padding: 0 10px;
       }
     }
+  }
+}
+.card {
+  min-height: 60vh;
+  width: 60%;
+  margin: 10vh 10%;
+  padding: 10vh 10%;
+  background-color: rgba($color: #f0f0f0, $alpha: 0.8);
+  border-radius: 15px;
+  box-shadow: 7px 5px 5px rgba($color: #000000, $alpha: 0.25);
+  @media (max-width: $media-screen-width) {
+    width: 80%;
+    min-height: 80vh;
+    margin: 5vh 5%;
+    padding: 5vh 5%;
   }
 }
 </style>
