@@ -1,7 +1,7 @@
 <template>
   <div class="home">
     <panel1/>
-    <panel2/>
+    <!-- <panel2/> -->
   </div>
 </template>
 
@@ -19,7 +19,7 @@ export default {
 <style lang="scss">
 @import "@/assets/screen.scss";
 .panel1 {
-  padding-bottom: 10vh;
+  // padding-bottom: 10vh;
   @media (min-width: $media-screen-width) {
     min-height: 100vh;
   }
